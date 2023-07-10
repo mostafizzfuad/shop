@@ -1,7 +1,18 @@
+/********** google font linkup **********/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
+
 /********** global css start **********/
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+    color: #272727;
+}
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
 }
 /********** global css end **********/
 
@@ -55,7 +66,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1362F4;
+    color: #c71a3a
 }
 
 /********** header section end **********/
+
+
+/********** hero section start **********/
+.hero-section {
+    background: rgba(229, 84, 115, 0.10);
+}
+.hero-section h1 {
+    font-size: 60px;
+}
+
+/********** hero section end **********/
