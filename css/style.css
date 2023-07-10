@@ -2,18 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
 
 /********** global css start **********/
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3,
+h4 {
     color: #272727;
+    font-weight: 900;
 }
+
 p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 13px;
 }
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 16px 32px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
 /********** global css end **********/
 
 
@@ -75,9 +91,95 @@ nav ul li a:hover {
 /********** hero section start **********/
 .hero-section {
     background: rgba(229, 84, 115, 0.10);
+    padding-top: 50px;
 }
+
 .hero-section h1 {
     font-size: 60px;
+    line-height: 65px;
+}
+
+.hero-section p {
+    max-width: 455px;
+    margin: 30px 0;
+}
+
+.hero-section img {
+    max-width: 465px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /********** hero section end **********/
+
+
+
+/********** featured section end **********/
+.featured-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.featured-section p {
+    margin: 20px 0 35px;
+}
+
+.flower-tree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower-text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.flower-text h4 {
+    text-decoration: underline;
+}
+
+.tree1 img {
+    width: 265px;
+    margin-top: 72px;
+}
+
+.tree2 img {
+    width: 265px;
+    margin-top: 130px;
+}
+
+.tree3 img {
+    width: 265px;
+    margin-top: 40px;
+}
+
+.featured-section h5 {
+    text-decoration: underline;
+}
+
+.tree1,
+.tree2,
+.tree3 {
+    width: 364px;
+    height: 438px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.tree1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.tree2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.tree3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/********** featured section end **********/
