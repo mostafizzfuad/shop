@@ -28,6 +28,7 @@ p {
     border: 0;
     color: #fff;
     font-size: 16px;
+    cursor: pointer;
 }
 
 /********** global css end **********/
@@ -74,7 +75,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     color: #0F2656;
     display: block;
@@ -183,3 +184,138 @@ nav ul li a:hover {
 }
 
 /********** featured section end **********/
+
+
+
+/********** icon section start **********/
+.icon-section {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px 0;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-col {
+    text-align: center;
+}
+
+.icon-col h3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+/********** icon section end **********/
+
+
+/********** signup section start **********/
+.signup-section {
+    background: rgba(229, 84, 115, 0.05);
+    margin: 70px 0;
+}
+
+.signup-section .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text {
+    text-align: center;
+}
+
+.signup-text p {
+    margin: 20px 0;
+    max-width: 430px;
+}
+
+.pink-text {
+    color: #E55473;
+}
+
+/********** signup section end **********/
+
+
+
+/********** instagram section start **********/
+.instagram-section {
+    text-align: center;
+}
+
+.instagram-section p {
+    margin: 15px auto 30px;
+    max-width: 428px;
+}
+
+.insta-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-row img {
+    width: 285px;
+}
+
+/********** instagram section end **********/
+
+/********** subscribe section start **********/
+.subscribe-section {
+    margin: 80px 0;
+    background: url('../images/Rectangle9.png') lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    text-align: center;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.subscribe-section p {
+
+    margin: 12px 0 25px;
+}
+
+.subscribe-section input[type="text"] {
+    padding: 17px 10px;
+    border-radius: 8px;
+    border: 0;
+    width: 475px;
+    margin-right: 8px;
+}
+
+.subscribe-section input[type="text"]:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+/********** subscribe section end **********/
+
+
+
+/********** footer section start **********/
+footer {
+    background: #111010;
+    padding: 70px 0 60px;
+    text-align: center;
+}
+.shop {
+    color: #fff;
+}
+footer p {
+    color: #fff;
+    margin: 15px auto 25px;
+    max-width: 428px;
+}
+
+footer p.copyright {
+    color: rgba(255, 255, 255, 0.40);
+}
+/********** footer section end **********/
+
+
+
+/****************************
+designed by mostafizzfuad
+using only html & css
+****************************/
